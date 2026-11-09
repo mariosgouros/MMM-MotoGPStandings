@@ -1,0 +1,71 @@
+.motogp-standings table {
+	border-collapse: collapse;
+}
+
+.motogp-standings th,
+.motogp-standings td {
+	padding: 2px 10px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+/* Header row: unchanged */
+.motogp-standings th {
+	font-weight: normal;
+	border-bottom: 1px solid #666;
+}
+
+.motogp-standings .position,
+.motogp-standings .nation {
+	text-align: center;
+}
+
+.motogp-standings .points {
+	text-align: right;
+}
+
+/* Body cells only (scoped to td so the header row keeps its default look).
+   Rider number and team keep the default colour. */
+.motogp-standings td.position,
+.motogp-standings td.nation,
+.motogp-standings td .rider-name {
+	color: #fff;
+}
+
+.motogp-standings td.points {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* Fade-out of the last two rows (only added when maxRows is not 0) */
+.motogp-standings tr.fade-soft {
+	opacity: 0.6;
+}
+
+.motogp-standings tr.fade-strong {
+	opacity: 0.3;
+}
+
+/* Body rows: highlighted columns in white (header row is untouched) */
+.motogp-standings td.position,
+.motogp-standings td.nation,
+.motogp-standings td.team,
+.motogp-standings td.rider .rider-name {
+	color: #fff;
+}
+
+/* .rider-number is intentionally not styled: it keeps the default colour */
+
+.motogp-standings td.points {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* National flags (SVG, 4:3). Sized relative to the text so font sizes stay untouched. */
+.motogp-standings td.nation .flag {
+	height: 0.75em;
+	width: auto;
+	vertical-align: -0.05em;
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15); /* keeps dark flags visible on black */
+}

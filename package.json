@@ -1,0 +1,22 @@
+{
+  "name": "mmm-motogpstandings",
+  "version": "1.0.0",
+  "description": "MagicMirror² module showing MotoGP, Moto2, Moto3 or MotoE championship standings.",
+  "main": "MMM-MotoGPStandings.js",
+  "repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/mariosgouros/MMM-MotoGPStandings"
+  },
+  "keywords": [
+    "MagicMirror",
+    "module",
+    "MotoGP",
+    "Moto2",
+    "Moto3",
+    "MotoE"
+  ],
+  "author": "MSg",
+  "homepage": "https://github.com/mariosgouros/MMM-MotoGPStandings#readme",
+  "license": "MIT"
+  "engines": { "node": ">=18" }
+}
