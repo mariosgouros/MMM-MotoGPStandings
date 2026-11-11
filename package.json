@@ -9,6 +9,7 @@
   },
   "keywords": [
     "MagicMirror",
+	"sports",
     "module",
     "MotoGP",
     "Moto2",
@@ -17,6 +18,6 @@
   ],
   "author": "MSg",
   "homepage": "https://github.com/mariosgouros/MMM-MotoGPStandings#readme",
-  "license": "MIT"
+  "license": "MIT",
   "engines": { "node": ">=18" }
 }
